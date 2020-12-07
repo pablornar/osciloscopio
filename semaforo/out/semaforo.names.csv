@@ -1,0 +1,212 @@
+semaforo/out/semaforo.elf:1a0009a8 000000bc t uartProcessIRQ
+semaforo/out/semaforo.elf:100000d0 00000004 b rxIsrCallbackUART0
+semaforo/out/semaforo.elf:100000d4 00000004 b rxIsrCallbackUART2
+semaforo/out/semaforo.elf:100000d8 00000004 b rxIsrCallbackUART3
+semaforo/out/semaforo.elf:100000dc 00000004 b txIsrCallbackUART0
+semaforo/out/semaforo.elf:100000e0 00000004 b txIsrCallbackUART2
+semaforo/out/semaforo.elf:100000e4 00000004 b txIsrCallbackUART3
+semaforo/out/semaforo.elf:1a001f18 00000048 t lpcUarts
+semaforo/out/semaforo.elf:10000000 00000004 d ClockSpeed
+semaforo/out/semaforo.elf:1a0005d8 00000010 t clearInterrupt
+semaforo/out/semaforo.elf:1a0005e8 0000005c t serveInterrupt
+semaforo/out/semaforo.elf:10000008 00000048 d ultrasonicSensors
+semaforo/out/semaforo.elf:1a001ddc 00000003 t ultrasonicSensorsIrqMap
+semaforo/out/semaforo.elf:1a000664 00000034 t gpioObtainPinInit
+semaforo/out/semaforo.elf:1a000ad6 00000002 t errorOcurred
+semaforo/out/semaforo.elf:1a000ad8 00000002 t doNothing
+semaforo/out/semaforo.elf:10000050 00000040 d timer_dd
+semaforo/out/semaforo.elf:1a000cd8 00000044 t Board_LED_Init
+semaforo/out/semaforo.elf:1a000d1c 00000040 t Board_TEC_Init
+semaforo/out/semaforo.elf:1a000d5c 00000040 t Board_GPIO_Init
+semaforo/out/semaforo.elf:1a000d9c 00000038 t Board_SPI_Init
+semaforo/out/semaforo.elf:1a000dd4 00000024 t Board_I2C_Init
+semaforo/out/semaforo.elf:1a000df8 00000030 t Board_ADC_Init
+semaforo/out/semaforo.elf:1a001f64 00000008 t GpioButtons
+semaforo/out/semaforo.elf:1a001f6c 0000000c t GpioLeds
+semaforo/out/semaforo.elf:1a001f78 00000012 t GpioPorts
+semaforo/out/semaforo.elf:1a001f90 0000000c t InitClkStates
+semaforo/out/semaforo.elf:1a001f9c 00000098 t pinmuxing
+semaforo/out/semaforo.elf:10000090 00000038 d i2c
+semaforo/out/semaforo.elf:1a000fd0 0000002c t Chip_UART_GetIndex
+semaforo/out/semaforo.elf:1a002034 00000008 t UART_BClock
+semaforo/out/semaforo.elf:1a00203c 00000008 t UART_PClock
+semaforo/out/semaforo.elf:1a00112c 00000014 t Chip_ADC_GetClockIndex
+semaforo/out/semaforo.elf:1a001140 00000032 t getClkDiv
+semaforo/out/semaforo.elf:1a001208 000000a0 t pll_calc_divs
+semaforo/out/semaforo.elf:1a0012a8 0000010c t pll_get_frac
+semaforo/out/semaforo.elf:1a0013b4 0000004c t Chip_Clock_FindBaseClock
+semaforo/out/semaforo.elf:1a001628 00000022 t Chip_Clock_GetDivRate
+semaforo/out/semaforo.elf:100000e8 00000008 b audio_usb_pll_freq
+semaforo/out/semaforo.elf:1a002050 0000006c t periph_to_base
+semaforo/out/semaforo.elf:1a0020bc 00000048 t InitClkStates
+semaforo/out/semaforo.elf:1a001944 00000014 t Chip_SSP_GetClockIndex
+semaforo/out/semaforo.elf:1a001958 00000018 t Chip_SSP_GetPeriphClockIndex
+semaforo/out/semaforo.elf:1a002104 b __init_array_end
+semaforo/out/semaforo.elf:1a002104 b __preinit_array_end
+semaforo/out/semaforo.elf:1a002104 b __init_array_start
+semaforo/out/semaforo.elf:1a002104 b __preinit_array_start
+semaforo/out/semaforo.elf:1a00144c 0000001c T Chip_Clock_GetDividerSource
+semaforo/out/semaforo.elf:1a000b5c 00000044 T TIMER2_IRQHandler
+semaforo/out/semaforo.elf:1a00018e 00000002 W DebugMon_Handler
+semaforo/out/semaforo.elf:1a000194 00000002 W RIT_IRQHandler
+semaforo/out/semaforo.elf:1a080000 A __top_MFlashA512
+semaforo/out/semaforo.elf:1a000194 00000002 W ADCHS_IRQHandler
+semaforo/out/semaforo.elf:1a000114 T __section_table_start
+semaforo/out/semaforo.elf:1a000194 00000002 W FLASH_EEPROM_IRQHandler
+semaforo/out/semaforo.elf:100000f0 00000001 B valor1
+semaforo/out/semaforo.elf:1a000194 00000002 W I2C0_IRQHandler
+semaforo/out/semaforo.elf:1a000a98 0000003e T delayRead
+semaforo/out/semaforo.elf:100000c8 00000004 B callBackFuncParams
+semaforo/out/semaforo.elf:1a000184 00000002 W HardFault_Handler
+semaforo/out/semaforo.elf:1a000000 A __vectors_start__
+semaforo/out/semaforo.elf:1a0011e6 0000000c T Chip_ADC_SetResolution
+semaforo/out/semaforo.elf:1a000978 00000030 T SysTick_Handler
+semaforo/out/semaforo.elf:1a000194 00000002 W SDIO_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W ATIMER_IRQHandler
+semaforo/out/semaforo.elf:1a000190 00000002 W PendSV_Handler
+semaforo/out/semaforo.elf:1a000182 00000002 W NMI_Handler
+semaforo/out/semaforo.elf:1a00210c R __exidx_end
+semaforo/out/semaforo.elf:1a000150 T __data_section_table_end
+semaforo/out/semaforo.elf:1a000194 00000002 W I2C1_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W UART1_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W GPIO5_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W CAN1_IRQHandler
+semaforo/out/semaforo.elf:53ff5e64 A __valid_user_code_checksum
+semaforo/out/semaforo.elf:1a00210c R _etext
+semaforo/out/semaforo.elf:1a000194 00000002 W USB1_IRQHandler
+semaforo/out/semaforo.elf:100000f1 00000001 B valor3
+semaforo/out/semaforo.elf:1a000194 00000002 W I2S0_IRQHandler
+semaforo/out/semaforo.elf:100000f2 00000001 B tempo
+semaforo/out/semaforo.elf:1a000ba0 00000044 T TIMER3_IRQHandler
+semaforo/out/semaforo.elf:1a0016ca 0000000c T Chip_Clock_GetBaseClocktHz
+semaforo/out/semaforo.elf:1a000178 0000000a T UART0_IRQHandler
+semaforo/out/semaforo.elf:1a0001b4 00000012 T bss_init
+semaforo/out/semaforo.elf:1a000194 00000002 W SGPIO_IRQHandler
+semaforo/out/semaforo.elf:100000f3 00000001 B band1
+semaforo/out/semaforo.elf:1a001a80 T __aeabi_uldivmod
+semaforo/out/semaforo.elf:1000010c ? _noinit
+semaforo/out/semaforo.elf:10000108 00000004 B SystemCoreClock
+semaforo/out/semaforo.elf:100000f4 00000001 B band3
+semaforo/out/semaforo.elf:1a000ffc 00000054 T Chip_UART_Init
+semaforo/out/semaforo.elf:1a000194 00000002 W ADC0_IRQHandler
+semaforo/out/semaforo.elf:1a00018a 00000002 W UsageFault_Handler
+semaforo/out/semaforo.elf:1a001748 0000004c T Chip_Clock_GetRate
+semaforo/out/semaforo.elf:1a000194 00000002 W GPIO6_IRQHandler
+semaforo/out/semaforo.elf:100000f8 00000008 B tickCounter
+semaforo/out/semaforo.elf:1a000edc 0000006c T Board_SetupClocking
+semaforo/out/semaforo.elf:20008000 A __top_RamAHB32
+semaforo/out/semaforo.elf:1a001ab0 000002d0 T __udivmoddi4
+semaforo/out/semaforo.elf:1a001f60 00000004 T ExtRateIn
+semaforo/out/semaforo.elf:1a000194 00000002 W IntDefaultHandler
+semaforo/out/semaforo.elf:1a000300 T __CRP_WORD_END__
+semaforo/out/semaforo.elf:1a00064e 0000000a T GPIO1_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W SSP0_IRQHandler
+semaforo/out/semaforo.elf:1a002104 R __exidx_start
+semaforo/out/semaforo.elf:1a0002fc 00000004 T CRP_WORD
+semaforo/out/semaforo.elf:1a001d84 00000048 T __libc_init_array
+semaforo/out/semaforo.elf:1a000194 00000002 W ADC1_IRQHandler
+semaforo/out/semaforo.elf:1a000e4c 0000003c T Board_Init
+semaforo/out/semaforo.elf:100000f5 00000001 B band2
+semaforo/out/semaforo.elf:1a001a7c 00000002 T _init
+semaforo/out/semaforo.elf:1a000114 T __data_section_table
+semaforo/out/semaforo.elf:1a000194 00000002 W RTC_IRQHandler
+semaforo/out/semaforo.elf:1000010c B _ebss
+semaforo/out/semaforo.elf:1a000adc 00000040 T TIMER0_IRQHandler
+semaforo/out/semaforo.elf:1a0008fc 0000007c T tickInit
+semaforo/out/semaforo.elf:20010000 A __top_RamAHB_ETB16
+semaforo/out/semaforo.elf:1a000194 00000002 W SPI_IRQHandler
+semaforo/out/semaforo.elf:1a000f98 00000038 T Chip_I2C_SetClockRate
+semaforo/out/semaforo.elf:1a000194 00000002 W LCD_IRQHandler
+semaforo/out/semaforo.elf:1a001400 0000004c T Chip_Clock_EnableCrystal
+semaforo/out/semaforo.elf:10008000 A __top_RamLoc32
+semaforo/out/semaforo.elf:1a000196 0000001e T data_init
+semaforo/out/semaforo.elf:1a000b1c 00000040 T TIMER1_IRQHandler
+semaforo/out/semaforo.elf:1a000f74 00000024 T Chip_I2C_Init
+semaforo/out/semaforo.elf:1a000a64 0000000a T UART2_IRQHandler
+semaforo/out/semaforo.elf:1a000454 000000cc T lecturateclado
+semaforo/out/semaforo.elf:1a0015bc 0000006c T Chip_Clock_GetMainPLLHz
+semaforo/out/semaforo.elf:1a000300 00000154 T secuencialed
+semaforo/out/semaforo.elf:1a001de0 00000136 T gpioPinsInit
+semaforo/out/semaforo.elf:1a001970 00000012 T Chip_SSP_SetClockRate
+semaforo/out/semaforo.elf:1a000658 0000000a T GPIO2_IRQHandler
+semaforo/out/semaforo.elf:1a0016a4 00000026 T Chip_Clock_GetBaseClock
+semaforo/out/semaforo.elf:100000c8 B _bss
+semaforo/out/semaforo.elf:1a0011b4 00000032 T Chip_ADC_SetSampleRate
+semaforo/out/semaforo.elf:1a000a78 00000020 T delayInit
+semaforo/out/semaforo.elf:1a000194 00000002 W I2S1_IRQHandler
+semaforo/out/semaforo.elf:1a001982 0000003e T Chip_SSP_SetBitRate
+semaforo/out/semaforo.elf:1a0017e8 00000002 T Chip_GPIO_Init
+semaforo/out/semaforo.elf:1a001f8c 00000004 T OscRateIn
+semaforo/out/semaforo.elf:1000010c ? _end_noinit
+semaforo/out/semaforo.elf:10008000 A _vStackTop
+semaforo/out/semaforo.elf:1a000194 00000002 W SSP1_IRQHandler
+semaforo/out/semaforo.elf:1a000178 T __bss_section_table_end
+semaforo/out/semaforo.elf:1a000698 00000194 T gpioInit
+semaforo/out/semaforo.elf:1a001d80 00000002 W __aeabi_ldiv0
+semaforo/out/semaforo.elf:1a000194 00000002 W USB0_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W GPIO3_IRQHandler
+semaforo/out/semaforo.elf:100000f6 00000001 B cont
+semaforo/out/semaforo.elf:1a000194 00000002 W SCT_IRQHandler
+semaforo/out/semaforo.elf:1a001468 0000001c T Chip_Clock_GetDividerDivisor
+semaforo/out/semaforo.elf:1a0002fc T __CRP_WORD_START__
+semaforo/out/semaforo.elf:1a001dcc 00000010 T memset
+semaforo/out/semaforo.elf:1a000186 00000002 W MemManage_Handler
+semaforo/out/semaforo.elf:1a000544 00000078 T main
+semaforo/out/semaforo.elf:1a000194 00000002 W WDT_IRQHandler
+semaforo/out/semaforo.elf:2000c000 A __top_RamAHB16
+semaforo/out/semaforo.elf:1008a000 A __top_RamLoc40
+semaforo/out/semaforo.elf:1a00018c 00000002 W SVC_Handler
+semaforo/out/semaforo.elf:10000004 00000004 D DWT_CTRL
+semaforo/out/semaforo.elf:1a000194 00000002 W GPIO7_IRQHandler
+semaforo/out/semaforo.elf:1a0016d8 0000003c T Chip_Clock_EnableOpts
+semaforo/out/semaforo.elf:1a001484 000000b8 T Chip_Clock_GetClockInputHz
+semaforo/out/semaforo.elf:1a001794 00000054 T fpuInit
+semaforo/out/semaforo.elf:1a00153c 00000080 T Chip_Clock_CalcMainPLLValue
+semaforo/out/semaforo.elf:1a000e88 0000001c T SystemInit
+semaforo/out/semaforo.elf:1a000194 00000002 W SPIFI_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W QEI_IRQHandler
+semaforo/out/semaforo.elf:1a000150 T __bss_section_table
+semaforo/out/semaforo.elf:1a00082c 00000056 T gpioWrite
+semaforo/out/semaforo.elf:1a001174 00000040 T Chip_ADC_Init
+semaforo/out/semaforo.elf:1a000ea4 00000038 T Board_SetupMuxing
+semaforo/out/semaforo.elf:1a001050 000000dc T Chip_UART_SetBaudFDR
+semaforo/out/semaforo.elf:1a0008d8 0000000c T tickRead
+semaforo/out/semaforo.elf:10000100 00000008 B tickRateMS
+semaforo/out/semaforo.elf:1a000194 00000002 W ETH_IRQHandler
+semaforo/out/semaforo.elf:100000cc 00000004 B tickHookFunction
+semaforo/out/semaforo.elf:10000000 ? _end_uninit_RESERVED
+semaforo/out/semaforo.elf:1a000194 00000002 W CAN0_IRQHandler
+semaforo/out/semaforo.elf:10000000 D _data
+semaforo/out/semaforo.elf:1000010c B _pvHeapStart
+semaforo/out/semaforo.elf:100000f7 00000001 B valor2
+semaforo/out/semaforo.elf:1a000178 T __section_table_end
+semaforo/out/semaforo.elf:1a0019c0 00000038 T Chip_SSP_Init
+semaforo/out/semaforo.elf:1a000194 00000002 W GINT0_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W DAC_IRQHandler
+semaforo/out/semaforo.elf:1a000e28 00000024 T Board_Debug_Init
+semaforo/out/semaforo.elf:100000c8 D _edata
+semaforo/out/semaforo.elf:1a000f54 00000020 T Chip_I2C_EventHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W M0SUB_IRQHandler
+semaforo/out/semaforo.elf:1a0017ec 00000158 T Chip_SetupCoreClock
+semaforo/out/semaforo.elf:1a000644 0000000a T GPIO0_IRQHandler
+semaforo/out/semaforo.elf:1a000000 00000114 T g_pfnVectors
+semaforo/out/semaforo.elf:1a0019f8 00000084 T ResetISR
+semaforo/out/semaforo.elf:1a0011f4 00000014 T SystemCoreClockUpdate
+semaforo/out/semaforo.elf:1a000520 00000024 T borrarleds
+semaforo/out/semaforo.elf:1a000194 00000002 W DMA_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W EVRT_IRQHandler
+semaforo/out/semaforo.elf:1b080000 A __top_MFlashB512
+semaforo/out/semaforo.elf:1a001d80 00000002 W __aeabi_idiv0
+semaforo/out/semaforo.elf:1a000188 00000002 W BusFault_Handler
+semaforo/out/semaforo.elf:1a001714 00000034 T Chip_Clock_Enable
+semaforo/out/semaforo.elf:1a000a6e 0000000a T UART3_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W MCPWM_IRQHandler
+semaforo/out/semaforo.elf:1a000194 00000002 W M0APP_IRQHandler
+semaforo/out/semaforo.elf:1a000882 00000054 T gpioRead
+semaforo/out/semaforo.elf:1a000be4 000000f4 T boardInit
+semaforo/out/semaforo.elf:1a000194 00000002 W GINT1_IRQHandler
+semaforo/out/semaforo.elf:1a0008e4 00000018 T tickPowerSet
+semaforo/out/semaforo.elf:1a00164c 00000058 T Chip_Clock_SetBaseClock
+semaforo/out/semaforo.elf:1a0005bc 0000001c T cyclesCounterInit
+semaforo/out/semaforo.elf:1a000194 00000002 W GPIO4_IRQHandler
+semaforo/out/semaforo.elf:1a000f48 0000000c T Board_SystemInit
